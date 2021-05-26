@@ -1,7 +1,4 @@
-import pytest
-import pandas as pd
-from mlolla.transformers.column_dropper import ColumnDropper
-from .fixtures.column_dropper_transformer_fixtures import input_to_drop
+from mlolla.data.transformers import ColumnDropper
 
 
 def test_simple_drop(input_to_drop):

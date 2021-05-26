@@ -1,4 +1,4 @@
-from mlolla.transformers.smart_imputer import SmartImputer
+from mlolla.data.transformers import SmartImputer
 import pandas as pd
 
 

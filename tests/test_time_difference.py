@@ -1,8 +1,5 @@
-import pytest
 import pandas as pd
-from mlolla.transformers.time_difference import TimeDifference
-from .fixtures.time_difference_fixtures import input_base_data, expected_data_age, expected_data_tenure, \
-    expected_data_tenure_days, input_base_data_format, expected_data_tenure_days_format
+from mlolla.data.transformers import TimeDifference
 
 
 def test_transform_age(input_base_data, expected_data_age):
