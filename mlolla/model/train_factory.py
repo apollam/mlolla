@@ -1,6 +1,6 @@
-from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, KFold, StratifiedKFold
+from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 from imblearn.pipeline import Pipeline
-from .utils.train_utils import get_random_state
+from mlolla.utils import get_random_state
 
 
 class TrainFactory(object):

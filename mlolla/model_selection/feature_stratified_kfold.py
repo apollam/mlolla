@@ -1,5 +1,5 @@
 from sklearn.model_selection import StratifiedKFold
-from mlolla.model.utils.train_utils import get_random_state
+from mlolla.utils import get_random_state
 
 
 class FeatureStratifiedKFold(StratifiedKFold):

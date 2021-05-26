@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 import pandas as pd
 import seaborn as sns
-from ..model.utils.train_utils import get_random_state
+from mlolla.utils import get_random_state
 
 
 def plot_roc(y_true, y_pred, figsize=(8, 8)):

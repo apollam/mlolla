@@ -2,7 +2,7 @@ import json
 import sys
 from mlolla.outputs.output import Output
 import pickle as pkl
-from mlolla.model.utils.config_json_treatment import get_x_y
+from mlolla.utils import get_x_y
 
 
 if __name__ == "__main__":
