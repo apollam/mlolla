@@ -1,4 +1,5 @@
-from mlolla.data.transformers import SmartDummies
+from .context import mlolla  # line needed so won't have import problems
+from mlolla.data.transformers.smart_dummies import SmartDummies
 import pandas as pd
 
 

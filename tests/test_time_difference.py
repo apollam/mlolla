@@ -1,5 +1,6 @@
+from .context import mlolla  # line needed so won't have import problems
 import pandas as pd
-from mlolla.data.transformers import TimeDifference
+from mlolla.data.transformers.time_difference import TimeDifference
 
 
 def test_transform_age(input_base_data, expected_data_age):
