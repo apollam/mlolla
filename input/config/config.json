@@ -1,0 +1,12 @@
+{
+  "project_name": "project_mlolla",
+
+  "train_type": "train_grid_search",
+  "train_data_name": "biased_data.csv",
+  "predict_data_name": "test_data.csv",
+  "label_name": "y",
+  "sens_attr_name": "sensitive_attribute",
+
+  "pipeline_steps": "[('sklearn.preprocessing', 'StandardScaler')], [('lightgbm', 'LGBMClassifier')]",
+  "LGBMClassifier__n_estimators": "[1000]"
+}

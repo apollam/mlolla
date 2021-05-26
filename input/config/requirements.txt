@@ -1,0 +1,12 @@
+numpy==1.16.1
+scipy==1.2.1
+pandas==0.25.0
+scikit-learn==0.23
+pymysql==0.9.3
+xgboost==0.81
+imbalanced-learn==0.7.0
+lightgbm==2.3.1
+jupyterlab==2.2.2
+xlrd==1.2.0
+pyxlsb==1.0.6
+aif360==0.3.0

@@ -1,0 +1,3 @@
+-r input/config/requirements.txt
+pytest==6.*
+coverage==5.*
