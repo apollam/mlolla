@@ -1,6 +1,6 @@
 from .train_factory import TrainFactory
-from mlolla.utils import get_pipeline_steps, get_training_params, get_x_y
-from mlolla.utils import create_biased_df, get_random_state, get_class_from_string
+from mlolla.utils.config_json_treatment import get_pipeline_steps, get_training_params, get_x_y
+from mlolla.utils.train_utils import create_biased_df, get_random_state, get_class_from_string
 from mlolla.metrics.fairness_metrics import get_fairness_metrics
 from sklearn.model_selection import KFold, StratifiedKFold
 from sklearn.utils.multiclass import type_of_target
