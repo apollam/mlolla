@@ -1,6 +1,6 @@
 from .context import mlolla  # line needed so won't have import problems
 from mlolla.data.transformers.column_dropper import ColumnDropper
-from .fixtures.column_dropper_transformer_fixtures import input_to_drop
+from .fixtures.column_dropper_fixtures import input_to_drop
 
 
 def test_simple_drop(input_to_drop):

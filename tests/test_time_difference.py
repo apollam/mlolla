@@ -1,6 +1,9 @@
 from .context import mlolla  # line needed so won't have import problems
 import pandas as pd
 from mlolla.data.transformers.time_difference import TimeDifference
+from .fixtures.time_difference_fixtures import input_base_data, expected_data_age, \
+    expected_data_tenure, expected_data_tenure_days, expected_data_tenure_days_format, \
+    input_base_data_format
 
 
 def test_transform_age(input_base_data, expected_data_age):
