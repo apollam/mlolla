@@ -1,6 +1,6 @@
 import ast
 from .train_utils import get_class_from_string, transform
-from mlolla.data.data_acquisition.spreadsheet import *
+from mlolla.data.acquisition.spreadsheet import *
 
 
 def get_pipeline_steps(config_json):
